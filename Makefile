@@ -25,28 +25,31 @@ vim_session:
 
 ## projdirs
 
-thesis: dir=rhdir/git_wzmli_mli_thesis
+thesis: 
+	git clone https://github.com/wzmli/mli_thesis.git $@
 
-R0: dir=rhdir/git_wzmli_rabies_R0
+R0: 
+	git clone https://github.com/wzmli/rabies_R0.git $@
 
-tz_pipeline: dir=rhdir/git_wzmli_rabies_db_pipeline
+tz_pipeline: 
+	git clone https://github.com/wzmli/rabies_db_pipeline.git $@
 
-rdc: dir=rhdir/git_wzmli_rdc
+rdc: 
+	git clone https://github.com/wzmli/rdc.git $@
 
-phyloglmm: dir=rhdir/git_wzmli_phyloglmm
+phyloglmm: 
+	git clone https://github.com/wzmli/phyloglmm.git $@
 
-grant: dir=rhdir/git_wzmli_rabies_cihr
+grant: 
+	git clone https://github.com/wzmli/rabies_cihr.git $@
 
-correlations: dir=rhdir/git_wzmli_rabies_correlations
+correlations: 
+	git clone https://github.com/wzmli/rabies_correlations.git $@
 
-glasgow: dir=rhdir/git_wzmli_glasgow
+glasgow: 
+	git clone https://github.com/wzmli/glasgow.git $@
 
 ## linkdirs
-
-sample: dir=~
-sample: ; $(linkdir)
-
-## makestuff/repohome.auto.mk: makestuff/repohome.list makestuff/repohome.pl
 
 ######################################################################
 
