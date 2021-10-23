@@ -1,52 +1,19 @@
 ## This is the eliminaterabies top directory
-## screens/rabies
 
 current: target
 -include target.mk
 
-######################################################################
-
-## Screens
-
-projdirs += tz_pipeline R0 correlations grant glasgow
-deepdirs += rdc thesis phyloglmm
-
-screen_session: 
-	$(plvscreens)
-
-## Vim
-
-vim_session:
-	bash -cl "vi Makefile target.mk"
+-include makestuff/perl.def
 
 ######################################################################
 
-## Directories
+screens.mk: makestuff/lmk.pl screens.list
 
-## projdirs
+vim_session: 
+	bash -cl "vmt screens.list"
 
-thesis: dir=rhdir/git_wzmli_mli_thesis
-
-R0: dir=rhdir/git_wzmli_rabies_R0
-
-tz_pipeline: dir=rhdir/git_wzmli_rabies_db_pipeline
-
-rdc: dir=rhdir/git_wzmli_rdc
-
-phyloglmm: dir=rhdir/git_wzmli_phyloglmm
-
-grant: dir=rhdir/git_wzmli_rabies_cihr
-
-correlations: dir=rhdir/git_wzmli_rabies_correlations
-
-glasgow: dir=rhdir/git_wzmli_glasgow
-
-## linkdirs
-
-sample: dir=~
-sample: ; $(linkdir)
-
-## makestuff/repohome.auto.mk: makestuff/repohome.list makestuff/repohome.pl
+screen_session: screens.update
+	$(MAKE) $(vscreens)
 
 ######################################################################
 
@@ -61,8 +28,15 @@ makestuff/Makefile:
 	git clone $(msrepo)/makestuff
 	ls $@
 
+### Includes
+
 -include makestuff/os.mk
--include makestuff/dirdir.mk
+
+## -include makestuff/wrapR.mk
+
+-include makestuff/listdir.mk
+-include makestuff/screendir.mk
+-include makestuff/mkfiles.mk
+
 -include makestuff/git.mk
 -include makestuff/visual.mk
--include makestuff/repohome.mk
