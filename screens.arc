@@ -11,8 +11,4 @@ XX. correlations: https://github.com/wzmli/rabies_correlations
 
 thesis: https://github.com/wzmli/mli_thesis
 
-XX. glasgow: https://github.com/wzmli/glasgow
-
-rdc: https://github.com/wzmli/rdc
-
-phyloglmm: https://github.com/wzmli/phyloglmm
+glasgow: https://github.com/wzmli/glasgow
