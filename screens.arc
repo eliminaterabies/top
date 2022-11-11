@@ -1,7 +1,8 @@
 
 XX. R0: https://github.com/wzmli/rabies_R0
 
-XX. tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
+XX. new_pipeline: https://github.com/mac-theobio/rabiesTZ.git
+tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
 
 XX. grant: https://github.com/wzmli/rabies_cihr
 
