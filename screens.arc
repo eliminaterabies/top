@@ -3,7 +3,7 @@ XX. R0: https://github.com/wzmli/rabies_R0
 
 XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
 
-not_a_pipeline delete! https://github.com/mac-theobio/rabiesTZ.git
+del -rf not_a_pipeline 
 
 tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
 
