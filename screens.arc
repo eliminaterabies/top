@@ -11,6 +11,10 @@ XX. correlations: https://github.com/wzmli/rabies_correlations
 
 ######################################################################
 
+tracing_reports: https://github.com/katiehampson1978/contact_tracing_report
+
+persistence: https://github.com/rebeccamancy/Serengeti_Rabies
+
 thesis: https://github.com/wzmli/mli_thesis
 
 glasgow: https://github.com/wzmli/glasgow
