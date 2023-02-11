@@ -18,3 +18,6 @@ persistence: https://github.com/rebeccamancy/Serengeti_Rabies
 thesis: https://github.com/wzmli/mli_thesis
 
 glasgow: https://github.com/wzmli/glasgow
+
+bio: https://github.com/dushoff/bio
+
