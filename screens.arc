@@ -1,5 +1,7 @@
 
-XX. R0: https://github.com/wzmli/rabies_R0
+Rnot: https://github.com/wzmli/rabies_R0_deprecated
+
+XX. R0history: https://github.com/eliminaterabies/historical_R0
 
 XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
 
