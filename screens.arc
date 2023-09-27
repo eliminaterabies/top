@@ -1,5 +1,6 @@
 
 Rnot: https://github.com/wzmli/rabies_R0_deprecated
+This has deprecated _code_ but for now the current MS (substance in doc.Rnw)
 
 XX. R0history: https://github.com/eliminaterabies/historical_R0
 
