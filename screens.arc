@@ -1,8 +1,11 @@
 
-Rnot: https://github.com/wzmli/rabies_R0_deprecated
-This has deprecated _code_ but for now the current MS (substance in doc.Rnw)
 
-XX. R0history: https://github.com/eliminaterabies/historical_R0
+XX. egfRabies: https://github.com/eliminaterabies/egfR0
+
+Rnot: https://github.com/wzmli/rabies_R0_deprecated
+* This has deprecated _code_ but for now the current MS (substance in doc.Rnw)
+R0history: https://github.com/eliminaterabies/historical_R0
+* Also a weird hybrid; came after Rnot, but before egfRabies
 
 XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
 
