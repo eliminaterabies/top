@@ -1,5 +1,4 @@
 
-
 XX. egfRabies: https://github.com/eliminaterabies/egfR0
 
 Rnot: https://github.com/wzmli/rabies_R0_deprecated
