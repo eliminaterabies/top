@@ -17,6 +17,16 @@ screen_session: screens.update
 
 ######################################################################
 
+Ignore += local.mk
+-include local.mk
+Drop ?= ~/Dropbox
+
+resourceDrop: dir=$(Drop)/rabies_cihr
+resourceDrop:
+	$(linkdirname)
+
+######################################################################
+
 ### Makestuff
 
 Sources += Makefile README.md

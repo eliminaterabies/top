@@ -14,6 +14,9 @@ XX. grant: https://github.com/wzmli/rabies_cihr
 
 XX. correlations: https://github.com/wzmli/rabies_correlations
 
+## Testing whether this will screen but not make 2024 Jan 10 (Wed)
+XX. resourceDrop ## NOALL
+
 ######################################################################
 
 tracing_reports: https://github.com/katiehampson1978/contact_tracing_report
