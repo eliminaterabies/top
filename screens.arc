@@ -1,10 +1,9 @@
+XX. R0paper: https://github.com/eliminaterabies/R0paper
 
-XX. egfRabies: https://github.com/eliminaterabies/egfR0
-
-Rnot: https://github.com/wzmli/rabies_R0_deprecated
-* This has deprecated _code_ but for now the current MS (substance in doc.Rnw)
-R0history: https://github.com/eliminaterabies/historical_R0
-* Also a weird hybrid; came after Rnot, but before egfRabies
+Earlier versions:
+* Rnot: https://github.com/wzmli/rabies_R0_deprecated ## Thesis
+* R0history: https://github.com/eliminaterabies/historical_R0 ## Rebuilding
+* egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
 
 XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
 
