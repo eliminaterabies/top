@@ -1,9 +1,10 @@
 XX. R0paper: https://github.com/eliminaterabies/R0paper
 
 Earlier versions:
-* Rnot: https://github.com/wzmli/rabies_R0_deprecated ## Thesis
-* R0history: https://github.com/eliminaterabies/historical_R0 ## Rebuilding
-* egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
+
+Rnot: https://github.com/wzmli/rabies_R0_deprecated ## Thesis
+R0history: https://github.com/eliminaterabies/historical_R0 ## Rebuilding
+egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
 
 XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
 
