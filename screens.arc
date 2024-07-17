@@ -1,3 +1,10 @@
+
+XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
+
+tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
+
+XX. link: https://github.com/eliminaterabies/link.git
+
 XX. R0paper: https://github.com/eliminaterabies/R0paper
 
 Earlier versions:
@@ -6,18 +13,14 @@ Rnot: https://github.com/wzmli/rabies_R0_deprecated ## Thesis
 R0history: https://github.com/eliminaterabies/historical_R0 ## Rebuilding
 egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
 
-XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
-
-tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
-
-XX. grant: https://github.com/wzmli/rabies_cihr
-
 XX. correlations: https://github.com/wzmli/rabies_correlations
 
 ## Testing whether this will screen but not make 2024 Jan 10 (Wed)
 XX. resourceDrop ## NOALL
 
 ######################################################################
+
+grant: https://github.com/wzmli/rabies_cihr
 
 tracing_reports: https://github.com/katiehampson1978/contact_tracing_report
 
