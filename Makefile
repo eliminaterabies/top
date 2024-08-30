@@ -10,12 +10,14 @@ current: target
 screens.mk: makestuff/lmk.pl screens.list
 
 vim_session: 
-	bash -cl "vmt screens.list"
+	bash -cl "vmt screens.list notes.md"
 
 screen_session: screens.update
 	$(MAKE) $(vscreens)
 
 ######################################################################
+
+Sources += datalinks.mk
 
 Ignore += local.mk
 -include local.mk
