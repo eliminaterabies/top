@@ -20,6 +20,14 @@ pipeline: dir=$(Drop)/Rabies_TZ/pipeline/SD_dogs/
 pipeline:
 	$(linkdirname)
 
+## linking outputs
+Ignore += link
+link/%:
+	$(MAKE) link
+link: dir=$(Drop)/Rabies_TZ/link/SD_dogs/
+link:
+	$(linkdirname)
+
 #################################################################
 
 Ignore += dogs.csv
