@@ -31,7 +31,7 @@ resourceDrop:
 
 ### Makestuff
 
-Sources += Makefile README.md
+Sources += Makefile README.md notes.md
 
 Ignore += makestuff
 msrepo = https://github.com/dushoff
