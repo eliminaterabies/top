@@ -4,7 +4,13 @@ Trying to take centralized notes. Today we made a makefile in _this_ repo to kee
 
 We have a new-ish link repo and we are going to use that and the upstream pipeline repo (rabiesTZ) to do as much cleaning as we can, and pass cleaner things downstream.
 
-We are currently rebuilding legacy code in egfR0 in R0paper, trying to drop as much as we can be shunting it upstream.
+We are currently rebuilding legacy code in egfR0 in R0paper, trying to drop as much as we can by shunting it upstream.
+
+Currently thinking about:
+* make an $(outdir) to parallel outputs? But no automatic pushing.
+	* maybe also a $(gitpush) eventually??
+* Put datalinks.mk everywhere it logically belongs
+* Keep rebuilding stuff that is currently in the horrible cribbled R0paper/public_data
 
 ----------------------------------------------------------------------
 
