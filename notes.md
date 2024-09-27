@@ -9,7 +9,7 @@ We are currently rebuilding legacy code in egfR0 in R0paper, trying to drop as m
 Currently thinking about:
 * make an $(outdir) to parallel outputs? But no automatic pushing.
 	* maybe also a $(gitpush) eventually??
-* Put datalinks.mk everywhere it logically belongs
+* include datalinks.mk (here) from various repos
 * Keep rebuilding stuff that is currently in the horrible cribbled R0paper/public_data
 
 ----------------------------------------------------------------------

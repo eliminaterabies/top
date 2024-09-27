@@ -17,7 +17,8 @@ screen_session: screens.update
 
 ######################################################################
 
-Sources += datalinks.mk
+## Maybe this is a good place to describe our new linking paradigm
+Sources += datalinks.mk datalinks.md
 
 Ignore += local.mk
 -include local.mk
