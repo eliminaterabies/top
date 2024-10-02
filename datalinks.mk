@@ -27,13 +27,3 @@ link/%:
 link: dir=$(Drop)/Rabies_TZ/link/SD_dogs/
 link:
 	$(linkdirname)
-
-#################################################################
-
-Ignore += dogs.csv
-
-update_dogs:
-	$(RM) dogs.csv
-dogs.csv: | pipeline
-	$(LNF) pipeline/SD_dogs.incubation.Rout.csv $@ 
-
