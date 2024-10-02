@@ -8,6 +8,8 @@ After that: figure out what _public_ data we should be using to make these produ
 
 After that: combine and build on code in links and egfR0 to make that public data.
 
+NOTE: There was some fairly weird undocumented branching going on in R0paper. Merged now, what does that even mean?
+
 2024 Aug 30 (Fri)
 =================
 
