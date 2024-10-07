@@ -11,7 +11,9 @@ Earlier versions:
 
 Rnot: https://github.com/wzmli/rabies_R0_deprecated ## Thesis
 R0history: https://github.com/eliminaterabies/historical_R0 ## Rebuilding
-XX. egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
+
+## Disabled 2024 Oct 06 (Sun)
+egfRabies: https://github.com/eliminaterabies/egfR0 ## Switch to egf
 
 XX. correlations: https://github.com/wzmli/rabies_correlations
 
