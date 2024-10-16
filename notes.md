@@ -1,4 +1,9 @@
 
+2024 Oct 16 (Wed)
+=================
+
+Changing to a pardir/hotdir approach; need to remember to delete old "link" directories.
+
 2024 Oct 02 (Wed)
 =================
 
