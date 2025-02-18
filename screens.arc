@@ -20,6 +20,9 @@ XX. correlations: https://github.com/wzmli/rabies_correlations
 ## Testing whether this will screen but not make 2024 Jan 10 (Wed)
 XX. resourceDrop ## NOALL
 
+Elaine data-cleaning
+XX. ct_cleaning: https://github.com/RabiesResearch/ct_cleaning
+
 ######################################################################
 
 grant: https://github.com/wzmli/rabies_cihr
