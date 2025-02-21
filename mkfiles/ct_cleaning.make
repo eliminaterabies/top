@@ -1,4 +1,4 @@
-## This is a _linked_ (mkfile) Makefile for …
+## This is a _linked_ (mkfile) Makefile for ct_cleaning (Elaine F.)
 
 current: target
 -include target.mk
