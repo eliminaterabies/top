@@ -12,6 +12,17 @@ vim_session:
 
 mirrors += raw
 
+Makefile: | data/raw data/to_clean
+
+data/raw: | data
+	ls raw > $(null) && cd data && $(LNF) ../raw .
+
+data/to_clean: | data
+	$(mkdir)
+
+data:
+	$(mkdir)
+
 ######################################################################
 
 Sources += $(wildcard R/*.R)
