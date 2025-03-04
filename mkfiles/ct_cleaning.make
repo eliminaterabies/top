@@ -10,18 +10,22 @@ vim_session:
 
 ######################################################################
 
-mirrors += raw
+## mirrors += raw
 
 Makefile: | data/raw data/to_clean
 
-data/raw: | data
+data/raw: | data raw.stamp
 	ls raw > $(null) && cd data && $(LNF) ../raw .
 
 data/to_clean: | data
 	$(mkdir)
 
-data:
+Ignore += raw
+data raw:
 	$(mkdir)
+
+raw.stamp: | raw
+	rclone sync -u $(mirror)/$| $|/ 
 
 ######################################################################
 
