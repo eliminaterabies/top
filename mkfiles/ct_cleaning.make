@@ -24,8 +24,10 @@ Ignore += raw
 data raw:
 	$(mkdir)
 
+Ignore += raw.stamp
 raw.stamp: | raw
 	rclone sync -u $(mirror)/$| $|/ 
+	$(touch)
 
 ######################################################################
 
