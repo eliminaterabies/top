@@ -10,8 +10,12 @@ vim_session:
 
 ######################################################################
 
-## mirrors += raw
+## Sharepoint is here, who knows what it does 2025 Jun 11 (Wed)
+## https://gla-my.sharepoint.com/personal/elaine_ferguson_glasgow_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Felaine%5Fferguson%5Fglasgow%5Fac%5Fuk%2FDocuments%2FRabies%2Fct%5Fcleaning%2Fdata%2Fraw&ga=1
 
+## downcall raw ##
+
+## This is a copy of Elaine's data structure (since we can't save the data here)
 Makefile: | data/raw data/to_clean
 
 data/raw: | data raw.stamp
@@ -19,6 +23,10 @@ data/raw: | data raw.stamp
 
 data/to_clean: | data
 	$(mkdir)
+
+######################################################################
+
+## This looks like JD stuff for mirroring, not checked
 
 Ignore += raw
 data raw:
@@ -31,9 +39,20 @@ raw.stamp: | raw
 
 ######################################################################
 
-Sources += $(wildcard R/*.R)
+Sources += $(wildcard *.R R/*.R)
 
+## This produces silly figures to default location and cool figures to 
+## figs/
+## Auto-fixes problems before a certain data
+## Outputs problems and omissions to data/to_clean 
+## Outputs cleaned data to data/processed
 run_pipeline.Rout: run_pipeline.R
+	$(pipeR)
+
+Ignore += *rabid_creds*
+
+## 0_download_data.script.Rout: R/0_download_data.R
+%.script.Rout: R/%.R
 	$(pipeR)
 
 ######################################################################
