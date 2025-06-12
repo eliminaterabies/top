@@ -10,8 +10,7 @@ vim_session:
 
 ######################################################################
 
-## Sharepoint is here, who knows what it does 2025 Jun 11 (Wed)
-## https://gla-my.sharepoint.com/personal/elaine_ferguson_glasgow_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Felaine%5Fferguson%5Fglasgow%5Fac%5Fuk%2FDocuments%2FRabies%2Fct%5Fcleaning%2Fdata%2Fraw&ga=1
+## Used a sharepoint link from Elaine to circumvent step 0.
 
 ## downcall raw ##
 
@@ -49,8 +48,10 @@ Sources += $(wildcard *.R R/*.R)
 run_pipeline.Rout: run_pipeline.R
 	$(pipeR)
 
-Ignore += *rabid_creds*
+######################################################################
 
+## This only works on Glasgow or Glasgow VPN apparently
+Ignore += *rabid_creds*
 ## 0_download_data.script.Rout: R/0_download_data.R
 %.script.Rout: R/%.R
 	$(pipeR)
