@@ -17,6 +17,13 @@ screen_session: screens.update
 
 ######################################################################
 
+## In transit
+
+pipeline:
+	mv new_pipeline $@
+
+######################################################################
+
 ## Maybe this is a good place to describe our new linking paradigm
 Sources += datalinks.mk datalinks.md
 

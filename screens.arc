@@ -1,5 +1,6 @@
 
-XX. new_pipeline: https://github.com/eliminaterabies/rabiesTZ
+XX. pipeline
+* https://github.com/eliminaterabies/rabiesTZ
 
 tz_pipeline: https://github.com/wzmli/rabies_db_pipeline
 
