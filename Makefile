@@ -19,6 +19,7 @@ screen_session: screens.update
 
 ## In transit
 
+Makefile: | pipeline
 pipeline:
 	mv new_pipeline $@
 
